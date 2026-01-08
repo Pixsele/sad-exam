@@ -203,7 +203,7 @@ $$f(x) = \frac{\Gamma\left(\frac{\nu+1}{2}\right)}{\sqrt{\nu\pi}\,\Gamma\left(\f
 
 $\mathbb{E}X = 0$ при $\nu > 1$, $\text{med}\,X = \text{mode}\,X = 0$ всегда
 
-$D[X] =$
+$D[X] = \frac{n}{n-2}$
 
 Пусть $Z \sim N(0,1)$ и $V \sim \chi^2_{\nu}$ независимы, тогда
 
