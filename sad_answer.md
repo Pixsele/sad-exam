@@ -19,8 +19,11 @@ $$F_X(x) = P(X \leq x)$$
 $$ f_X(x) : \int_a^b f_X(x) \, dx = P(a \leq X \leq b) $$
 
 **Характеристики распределений**:
+
 Матожидание — среднее значение $X$:
+
 $$ EX = \int x \, dF(x) $$
+
 Дисперсия — мера разброса $X$:
 $$ \mathbb{D}X = \mathbb{E} \left( (X - EX)^2 \right) $$
 Квантиль порядка $\alpha \in (0, 1)$:
@@ -35,9 +38,11 @@ $$ IQR = X_{0.75} - X_{0.25} $$
 $$ \text{mode } X = \arg \max_x f(x) $$
 Коэффициент ассиметрии (skewness):
 $$ \gamma_1 = \mathbb{E} \left( \frac{X - EX}{\sqrt{\mathbb{D}X}} \right)^3 $$
-![alt text](Picture/img_1.png)
+![](Picture/img_1.png)
+
 $\gamma_1 = 0$ — необходимое, но не достаточное условие симметричности:
-![alt text](Picture/img_2.png)
+![](Picture/img_2.png)
+
 Коэффициент эксцесса (excess, без вычитания тройки — kurtosis):
 $$ \gamma_2 = \frac{\mathbb{E}(X - \mathbb{E}X)^4}{(\mathbb{D}X)^2} - 3 $$
 ![](Picture/img_3.png)
