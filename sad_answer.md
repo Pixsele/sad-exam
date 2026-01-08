@@ -25,30 +25,41 @@ $$ f_X(x) : \int_a^b f_X(x) \, dx = P(a \leq X \leq b) $$
 $$ EX = \int x \, dF(x) $$
 
 Дисперсия — мера разброса $X$:
+
 $$\mathbb{D}X = \mathbb{E} \left( (X - EX)^2 \right)$$
 
 Квантиль порядка $\alpha \in (0, 1)$:
+
 $$X_\alpha : P(X \leq X_\alpha) \geq \alpha, \, P(X \geq X_\alpha) \geq 1 - \alpha$$
 
 Эквивалентное определение:
+
 $$X_\alpha = F^{-1} (\alpha) = \inf \{ x : F(x) \geq \alpha \}$$
 
 Медиана — квантиль порядка 0.5, центральное значение распределения:
+
 $$\text{med } X : P(X \leq \text{med } X) \geq 0.5, \, P(X \geq \text{med } X) \geq 0.5$$
 
 Интерквартильный размах:
+
 $$IQR = X_{0.75} - X_{0.25}$$
 
 Мода — точка максимума функции вероятности или плотности:
+
 $$\text{mode } X = \arg \max_x f(x)$$
 
 Коэффициент ассиметрии (skewness):
+
 $$\gamma_1 = \mathbb{E} \left( \frac{X - EX}{\sqrt{\mathbb{D}X}} \right)^3$$
+
 ![](Picture/img_1.png)
 
 $\gamma_1 = 0$ — необходимое, но не достаточное условие симметричности:
+
 ![](Picture/img_2.png)
 
 Коэффициент эксцесса (excess, без вычитания тройки — kurtosis):
+
 $$ \gamma_2 = \frac{\mathbb{E}(X - \mathbb{E}X)^4}{(\mathbb{D}X)^2} - 3 $$
+
 ![](Picture/img_3.png)
