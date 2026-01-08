@@ -87,6 +87,8 @@ $$X \in \{ 0,1 \} \sim Ber(p), p \in (0,1)$$
 
 то $$\lim_{n \to \infty} P(\omega : \mu_n(\omega) = m) = e^{-\lambda} \frac{\lambda^m}{m!}. $$
 
+**Моменты:**
+
 $$E[X] = p.$$
 
 $$D[X] = p(1 - p) = pq, \text{ так как } E X^2 - (E X)^2 = p - p^2 = p \cdot (1 - p) = pq.$$
@@ -94,3 +96,13 @@ $$D[X] = p(1 - p) = pq, \text{ так как } E X^2 - (E X)^2 = p - p^2 = p \cd
 Вообще, легко видеть, что
 
 $$E[X^n] = Pr(X = 1) \cdot 1^n + Pr(X = 0) \cdot 0^n = p \cdot 1^n + q \cdot 0^n = p = E[X], \forall n \in \mathbb{N}$$
+
+**Биномиальное распределение** — дискретное распределение вероятностей случайной величины $x$, принимающей целочисленные значения $k=0,1,\ldots,n$ с вероятностями:  
+
+$$F(x=k)=\binom{n}{k}p^{k}(1-p)^{n-k}.$$
+
+$$X \in \{0,\ldots,N\} \sim Bin\left(N,p\right),\; N \in \mathbb{N}, \; p \in [0,1]$$
+
+$$F\left(x\right) = I_{1-p}\left(N-x,1+x\right)$$
+
+$$f\left(x\right) = C_N^x p^x \left(1-p\right)^{N-x}$$
