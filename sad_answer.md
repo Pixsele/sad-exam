@@ -35,9 +35,9 @@ $$ IQR = X_{0.75} - X_{0.25} $$
 $$ \text{mode } X = \arg \max_x f(x) $$
 Коэффициент ассиметрии (skewness):
 $$ \gamma_1 = \mathbb{E} \left( \frac{X - EX}{\sqrt{\mathbb{D}X}} \right)^3 $$
-![[Pasted image 20260108142416.png]]
+![alt text](Picture/img_1.png)
 $\gamma_1 = 0$ — необходимое, но не достаточное условие симметричности:
-![alt text](Picture/Pasted image 20260108142514.png)
+![alt text](Picture/img_2.png)
 Коэффициент эксцесса (excess, без вычитания тройки — kurtosis):
 $$ \gamma_2 = \frac{\mathbb{E}(X - \mathbb{E}X)^4}{(\mathbb{D}X)^2} - 3 $$
-![[Pasted image 20260108142541.png]]
+![](Picture/img_3.png)
