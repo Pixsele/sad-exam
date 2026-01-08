@@ -101,7 +101,7 @@ $$E[X^n] = Pr(X = 1) \cdot 1^n + Pr(X = 0) \cdot 0^n = p \cdot 1^n + q \cdot 0^n
 
 $$F(x=k)=\binom{n}{k}p^{k}(1-p)^{n-k}.$$
 
-$$X \in \{0,\ldots,N\} \sim Bin\left(N,p\right),\; N \in \mathbb{N}, \; p \in [0,1]$$
+$$X \in '\{0',\ldots,N\} \sim Bin\left(N,p\right),\; N \in \mathbb{N}, \; p \in [0,1]$$
 
 $$F\left(x\right) = I_{1-p}\left(N-x,1+x\right)$$
 
