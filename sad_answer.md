@@ -165,3 +165,17 @@ $$F_Y(x) \approx \Phi\left( \frac{x - \sqrt{\lambda}}{\sqrt{\lambda}} \right)$$
 $Bin(n,p) \rightarrow_{n \to \infty} Pois(\lambda)$ при постоянном $np$  
 
 Пример: количество изюма в булочке с изюмом
+
+### **Распределение хи-квадрат** - eсли взять $k$ независимых случайных величин $Z_1, Z_2, \ldots, Z_k$, каждая из которых имеет **стандартное нормальное распределение** $N(0, 1)$, то сумма их квадратов будет иметь распределение хи-квадрат с $k$ степенями свободы:
+
+$$X = \sum_{i=1}^k Z_i^2 \sim \chi^2(k)$$
+
+$$X \in \mathbb{R}_+ \sim \chi_k^2, \quad k \in \mathbb{N}$$
+
+$$F\left( x \right) = \frac{1}{\Gamma \left( \frac{k}{2} \right)} \gamma \left( \frac{k}{2}, \frac{x}{2} \right)$$
+
+$$f\left( x \right) = \frac{1}{2^{\frac{k}{2}} \Gamma \left( \frac{k}{2} \right)} x^{\frac{k}{2} - 1} e^{-\frac{x}{2}}$$
+
+$$\Gamma(a) = \int_0^\infty e^{-t} t^{a-1} dt \quad \text{— гамма-функция}$$
+
+$$\gamma(a, x) = \int_0^x e^{-t} t^{a-1} dt \quad \text{— нижняя неполная гамма-функция}$$
