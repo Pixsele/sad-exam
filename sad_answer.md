@@ -81,11 +81,11 @@ $$X \in \{ 0,1 \} \sim Ber(p), p \in (0,1)$$
 
 Тогда если
 
-1. $$ \lim_{n \to \infty} p_n = 0; $$
-2. $$ \lim_{n \to \infty} np_n = \lambda; $$
-3. $$ \lambda > 0, $$
+1. $$\lim_{n \to \infty} p_n = 0; $$
+2. $$\lim_{n \to \infty} np_n = \lambda; $$
+3. $$\lambda > 0, $$
 
-то $$ \lim_{n \to \infty} P(\omega : \mu_n(\omega) = m) = e^{-\lambda} \frac{\lambda^m}{m!}. $$
+то $$\lim_{n \to \infty} P(\omega : \mu_n(\omega) = m) = e^{-\lambda} \frac{\lambda^m}{m!}. $$
 
 $$E[X] = p.$$
 
