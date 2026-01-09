@@ -175,7 +175,7 @@ $$F\left( x \right) = \frac{1}{\Gamma \left( \frac{k}{2} \right)} \gamma \left( 
 
 $$f\left( x \right) = \frac{1}{2^{\frac{k}{2}} \Gamma \left( \frac{k}{2} \right)} x^{\frac{k}{2} - 1} e^{-\frac{x}{2}}$$
 
-$$\Gamma(a) = \int_0^\infty e^{-t} t^{x-1} dt \quad \text{— гамма-функция}$$
+$$\Gamma(a) = \int_0^\infty e^{-t} t^{a-1} dt \quad \text{— гамма-функция}$$
 
 $$\gamma(a, x) = \int_0^x e^{-t} t^{a-1} dt \quad \text{— нижняя неполная гамма-функция}$$
 
