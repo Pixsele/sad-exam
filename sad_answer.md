@@ -279,6 +279,8 @@ $$\phi(z) = \frac{1}{\sqrt{2\pi}} e^{-\frac{z^2}{2}}$$
 
 $\mathbb{E} X = \text{med } X = \text{mode } X = \mu$, $\mathbb{D} X = \sigma^2$, все моменты более высокого порядка нулевые
 
+**Сумма нормальных распределений:**
+
 **пусть** $X_1, \ldots, X_n$ **независимы,** $X_i \sim N\left(\mu_i, \sigma_i^2\right)$, **тогда** $\forall a_1, \ldots, a_n$  
 
 $$\sum_{i=1}^n a_i X_i \sim N \left( \sum_{i=1}^n a_i \mu_i, \sum_{i=1}^n a_i^2 \sigma_i^2 \right)$$
