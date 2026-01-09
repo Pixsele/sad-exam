@@ -432,7 +432,8 @@ $$\lim_{n \to \infty} \mathbb{E}\hat{\theta}_n = \theta.$$
 
 **Оптимальность:**
 
-$$\mathbb{D}\hat{\theta}_n = \min_{\hat{\theta}_1 \in \mathcal{U}} \mathbb{D}\hat{\theta}_1,$$  
+$$\mathbb{D}\hat{\theta}_n = \min_{\hat{\theta}_1 \in \mathcal{U}} \mathbb{D}\hat{\theta}_1,$$
+
 где $\mathcal{U}$ — класс несмещённых оценок.
 
 **Робастность:**
