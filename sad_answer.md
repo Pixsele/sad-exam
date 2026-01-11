@@ -818,9 +818,7 @@ $H_0$ не отвергается
 
 **Статистика:**
 
-$$Z(X^{n_1}, X^{n_2}) = \frac{\hat{p}_1 - \hat{p}_2}{\sqrt{P(1-P)\left(\frac{1}{n_1} + \frac{1}{n_2}\right)}}$$
-
-где $P = \frac{\hat{p}_1 n_1 + \hat{p}_2 n_2}{n_1 + n_2}$
+$$Z(X_1^n, X_2^n) = \frac{p_1 - p_2}{\sqrt{\frac{f + g}{n^2} - \frac{(f - g)^2}{n^3}}} = \frac{f - g}{\sqrt{f + g - \frac{(f - g)^2}{n}}}$$
 
 **Распределение:** $N(0,1)$.
 
