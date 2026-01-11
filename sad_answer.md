@@ -818,7 +818,7 @@ $H_0$ не отвергается
 
 **Статистика:**
 
-$$Z(X_1^n, X_2^n) = \frac{p_1 - p_2}{\sqrt{\frac{f + g}{n^2} - \frac{(f - g)^2}{n^3}}} = \frac{f - g}{\sqrt{f + g - \frac{(f - g)^2}{n}}}$$
+$$Z(X_1^n, X_2^n) = \frac{\hat{p}_1 - \hat{p}_2}{\sqrt{\frac{f + g}{n^2} - \frac{(f - g)^2}{n^3}}} = \frac{f - g}{\sqrt{f + g - \frac{(f - g)^2}{n}}}$$
 
 **Распределение:** $N(0,1)$.
 
