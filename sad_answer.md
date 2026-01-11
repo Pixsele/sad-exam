@@ -793,7 +793,9 @@ $H_0 : p_1 = p_2$, $H_1 : p_1 \neq p_2$ (или $>$, $<$).
 
 **Статистика:**
 
-$$Z = \frac{\hat{p}_1 - \hat{p}_2}{\sqrt{P(1-P)\left(\frac{1}{n_1} + \frac{1}{n_2}\right)}}, \quad \text{где } P = \frac{\hat{p}_1 n_1 + \hat{p}_2 n_2}{n_1 + n_2}.$$
+![](Picture/img_20.png)
+
+$$Z = \frac{\hat{p}_1 - \hat{p}_2}{\sqrt{P(1-P)\left(\frac{1}{n_1} + \frac{1}{n_2}\right)}}, \quad \text{где } P = \frac{\hat{p}_1 n_1 + \hat{p}_2 n_2}{n_1 + n_2} , \quad \hat{p}_1 = \frac{a}{n_1}, \quad \hat{p}_2 = \frac{b}{n_2}$$
 
 **Распределение:** $N(0, 1)$.
 
